@@ -1,5 +1,41 @@
 *{
-    padding: 0;
-    margin: 0;
+    /* padding: 0;
+    margin: 0; */
     box-sizing: border-box;
+}
+
+body{
+    background: url(images/pattern-background-desktop.svg) no-repeat;
+}
+
+main .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+    margin-inline: 442px;
+    outline: 2px solid red;
+}
+
+.container div{
+    text-align: center;
+}
+.container div p{
+    width: 20em;
+}
+
+.order-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    outline: 2px solid green;
+}
+.plan-details{
+    display: flex;
+    flex-direction: column;
+}
+.plan-details p{
+    margin: 1px;
+    margin: 0 -80px;
 }
