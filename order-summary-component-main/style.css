@@ -12,6 +12,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(226, 116, 43);
 }
 
 
@@ -21,9 +22,10 @@ main .container{
     justify-content: center;
     align-items: center;
     margin-top: 2em;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
     flex-wrap: wrap;
     background-color: #fff;
+    border-radius: 10px;
 }
 
 .container div{
@@ -83,12 +85,3 @@ main .container{
 }
 
 
-
-/* MEDIA QUERY */
-@media (max-width: 768px) {
-    .container{
-        margin:0;
-        outline: red solid 2px;
-    }
-
-}
