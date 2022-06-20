@@ -15,7 +15,11 @@ body{
     background-color: rgb(226, 116, 43);
 }
 
-
+#woman{
+    width: 400px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
 main .container{
     display: flex;
     flex-direction: column;
